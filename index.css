@@ -1,0 +1,96 @@
+*{
+    padding:0;
+    margin:0;
+}
+nav{
+    background-color:rgb(243, 243, 243);
+    position: sticky;
+    transition: 0.4s;
+    display:flex;
+    align-items: center;
+    transition-timing-function: linear;
+    top:0;
+}
+
+.head:hover{
+    cursor: pointer;
+    transition: 1s;
+    background-color: rgb(218, 209, 209);
+}
+ul{
+    position: relative;
+    
+}
+li{
+    transition: 1s;
+    padding:10px;
+    list-style: none;
+}
+li:hover{
+    cursor: pointer;
+    transition: 1s;
+    background-color: rgb(218, 209, 209);
+}
+.back{
+    background-image: url('./img/architect.jpg');   
+    height: 100vh;
+    background-size:100% 100%;
+   
+}
+.projectdiv{
+    background-color: red;
+
+}
+#divs{
+    border:3px solid blue;
+}
+.sum {
+    height: 35vh;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+}
+.team {
+   
+    /* width: 23.5%; */
+    padding: 0;
+    margin: 0;
+}
+.team img {
+    position: relative;
+    top: 0;
+    filter: grayscale();
+}
+.form input {
+    height: 40px;
+}
+
+.last img {
+    height: 90vh;
+    width: 100%;
+}
+#mydiv{
+    height:30vh;background-color:rgba(45, 92, 180, 0.63); position: absolute; width:30%;left:35%;transition:1s;top:15px;display: none;animation: heart 2s linear forwards ;
+}
+@keyframes heart {
+    0%{
+        transform: scale(0);
+    }
+    25%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1);
+    }
+    75%{
+        display: none;
+        transform: scale(1);
+    }
+   
+    100%{
+        transform: scale(0);
+     
+    }
+}
+#mydiv>h1{
+    text-align: center; padding-top:45px}
